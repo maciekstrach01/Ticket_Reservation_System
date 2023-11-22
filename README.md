@@ -1,4 +1,6 @@
+## Screenshots
 
+![class_diagram](https://github.com/maciekstrach01/Library_project_cpp/assets/146733279/cd284447-0683-41dd-917c-fd4e30eadb27)
 # Ticket Reservation System
 
 The aim of the project was to model and program, using an inheritance mechanism and polymorphism, one of the systems presented. Our choice became a ticket booking system for buses, trains and planes.  
@@ -19,12 +21,6 @@ The source files of the classes are divided into matching modules, the use of wh
 
 ## 🛠 Skills
 Java
-
-
-## Screenshots
-
-
-![class_diagram](https://github.com/maciekstrach01/Library_project_cpp/assets/146733279/cd284447-0683-41dd-917c-fd4e30eadb27)
 
 
 ## Running Tests
