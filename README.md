@@ -1,6 +1,8 @@
 
 # Order Management System
 
+https://github.com/maciekstrach01/Quiz_API/assets/146733279/fd1596e5-4276-456e-a2b0-9ff5ff1721a5
+
 The design of the ticket reservation system follows SOLID principles, which contributes to its flexibility, extensibility and ease of maintenance. The structure of the classes and their responsibilities are well defined, allowing the system to be easily extended without modifying existing code.
 
 The project effectively handles the complex real-world problem of booking tickets for various modes of transportation. It supports different types of users, carriers, connections and discounts, making it a versatile tool for end users.
@@ -12,7 +14,7 @@ I performed unit tests to all 28 project files using the JUnit library and the M
 
 
 
-https://github.com/maciekstrach01/Quiz_API/assets/146733279/408d2fba-0c42-4f82-aa0f-d873b69edfa4
+
 ## Screenshots
 
 ![Obraz1](https://github.com/maciekstrach01/Portfolio/assets/146733279/0b161911-3ada-4e76-8a35-ea8b3d4740c0)
@@ -87,15 +89,19 @@ Overall, the design meets the requirements of a real ticket order management sys
 Factory Method pattern
 - Description: the Factory Method pattern is to define a method that creates objects, but allows subclasses to change the type of the created object.
 - Example in the project: Classes such as TrainTicket, BusTicket, PlaneTicket can be created with factory methods depending on the type of transportation, which provides flexibility and makes it easy to extend the system with new ticket types.
+
 Singleton pattern
 - Description: The Singleton pattern ensures that an object has exactly one instance and provides global access to that instance.
 - Example in a project: If there is a class in the project responsible for managing the system configuration or connection to the database, it could be implemented as a Singleton. In the files shown, the direct use of Singleton is not noted, but this could be applied to other parts of the system.
+
 Strategy pattern
 - Description: the Strategy pattern allows you to define a family of algorithms, put them in separate classes and swap their objects when the program runs.
 - Example in the project: The Discount class and its various implementations can be examples of the Strategy pattern, where different strategies for calculating discounts can be applied depending on the type of discount.
+
 Template Method pattern
 - Description: the Template Method pattern defines the skeleton of an algorithm in a method, passing some steps to subclasses.
 - Example in the project: The Ticket class can be an example of the Template Method pattern, where the skeleton of ticket price calculation is defined, and the individual steps are implemented in the subclasses TrainTicket, BusTicket, PlaneTicket.
+
 Decorator pattern
 - Description: the Decorator pattern allows to dynamically add new functions to objects by placing these objects in wrapper objects (decorators).
 - Example in the project: The application of different ticket discounts can be implemented as decorators that dynamically add additional discounts to the basic ticket price.
@@ -103,9 +109,11 @@ Decorator pattern
 MVC (Model-View-Controller).
 - Description: the MVC pattern divides the application into three main components: Model (business logic and data), View (user interface) and Controller (controls the application flow).
 - Example in the project: In the design, you can see the separation of business logic (e.g. Reservation, Ticket, User classes) from the potential presentation layer, which could be classes such as SystemVisualiser. The ConsoleReservationSystem class could act as a controller.
+
 Layered Architecture.
 - Description: Layered architecture divides the system into layers, where each layer is responsible for a specific aspect of the system's functionality.
 - Example in a project: The project is divided into different layers, such as a model layer (User, Reservation, Ticket), a business logic layer (ReservationSystem, ConsoleReservationSystem) and a support layer (Hashing, Dates, EnumVisualiser).
+
 Dependency Injection (DI).
 - Description: Dependency Injection is a pattern that allows you to inject dependencies into an object instead of creating them directly in the object.
 - Example in the project: There are no direct examples of DI in the project, but using this pattern could improve the flexibility and testability of the system, especially in classes such as ReservationSystem.
