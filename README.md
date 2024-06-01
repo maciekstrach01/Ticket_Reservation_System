@@ -5,6 +5,8 @@ There you will find, among other things, unit tests written in JUNIT for the who
 ![class_diagram](https://github.com/maciekstrach01/Library_project_cpp/assets/146733279/cd284447-0683-41dd-917c-fd4e30eadb27)
 # Ticket Reservation System
 
+https://github.com/maciekstrach01/Quiz_API/assets/146733279/dc46d26d-8816-4591-a944-9a511e393e20
+
 The aim of the project was to model and program, using an inheritance mechanism and polymorphism, one of the systems presented. Our choice became a ticket booking system for buses, trains and planes.  
   
 A preliminary analysis of similar ticket booking systems already existing on the market justified the need to implement user registration and login functionality. In our system, we have a separation into two types of users - passengers and administrators (UserType enum). Administrators have access to all bookings, connections and user information, while passengers can book a ticket and view a list of valid tickets.  
