@@ -1,4 +1,4 @@
-Please switch to the junit_tests gallery if you want to see extended work on this project.
+Please switch to junit_tests branch if you want to see extended work on this project.
 There you will find, among other things, unit tests written in JUNIT for the whole project, description of the project in terms of SOLID principle, assessment of the project in terms of the real problem, information about the design and architectural patterns used in the project.
 ## Diagram
 
