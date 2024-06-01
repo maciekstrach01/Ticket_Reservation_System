@@ -1,4 +1,4 @@
-## Screenshots
+## Diagram
 
 ![class_diagram](https://github.com/maciekstrach01/Library_project_cpp/assets/146733279/cd284447-0683-41dd-917c-fd4e30eadb27)
 # Ticket Reservation System
