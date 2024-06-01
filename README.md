@@ -1,5 +1,5 @@
 
-# Order Management System
+# OMS
 
 The design of the ticket reservation system follows SOLID principles, which contributes to its flexibility, extensibility and ease of maintenance. The structure of the classes and their responsibilities are well defined, allowing the system to be easily extended without modifying existing code.
 
