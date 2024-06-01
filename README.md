@@ -1,3 +1,5 @@
+Please switch to the junit_tests gallery if you want to see extended work on this project.
+There you will find, among other things, unit tests written in JUNIT for the whole project, description of the project in terms of SOLID principle, assessment of the project in terms of the real problem, information about the design and architectural patterns used in the project.
 ## Diagram
 
 ![class_diagram](https://github.com/maciekstrach01/Library_project_cpp/assets/146733279/cd284447-0683-41dd-917c-fd4e30eadb27)
