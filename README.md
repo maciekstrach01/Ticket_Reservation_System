@@ -1,5 +1,5 @@
 
-# Order Management System
+# Ticket Reservation System
 
 https://github.com/maciekstrach01/Quiz_API/assets/146733279/fd1596e5-4276-456e-a2b0-9ff5ff1721a5
 
